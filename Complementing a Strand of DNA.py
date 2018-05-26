@@ -11,11 +11,16 @@ s = "GGTGCAATTGTCGCGGATGGCCGTTTCGCCCCGTAGTCGTCCTGGCCCGCCAAAAAGTGTCCACCATGGTAGACA
 
 
 def complement(dna):
-
+    
+    # create empty string
     sc = ""
-
+    
+    # create refrence dictionary for complements
     comp = {"A":"T", "T":"A", "C":"G", "G":"C"}
+	
+	# loop through strand and replace with complement
     for base in dna.upper():
+		# add new nt at beginning to reverse
         sc = comp[base] + sc
 
     return sc
