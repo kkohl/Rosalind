@@ -9,12 +9,15 @@
 
 # n = month k = rabbit pairs
 def recurrence(n,k):
-
+       
+    # set starting values
     f1 = 1
     f2 = 1
-
+    
+    # start iterator
     i = 3
-
+    
+    # Run problem up to limit set by n
     while i <= n:
         fn = f2 + (f1*k)
         f1 = f2
