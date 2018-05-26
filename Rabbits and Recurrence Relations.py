@@ -1,4 +1,4 @@
-# Rosalid
+# Rosalind
 # Bioinformatics Stronghold
 # ID: FIB
 
